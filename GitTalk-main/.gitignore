@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+ENV/
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Frontend build
+Frontend/dist/
+Frontend/.next/
+Frontend/.cache/
+
+# Misc
+*.swp
+*.swo
+.idea/
+*.bak
+
+# Ignore environment and secret files
+*.env
+.env.*
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+.coverage.*
+.cache
+
+# Ignore test output
+junit.xml
+test-results.xml
+
+# Ignore local config
+*.local
